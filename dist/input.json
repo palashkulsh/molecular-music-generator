@@ -1,4 +1,4 @@
-{
+[{
     "tempo"             : 165.0,
     "lengths"           : [ 4, 3 ],
     "patternLength"     : 4,
@@ -9,4 +9,4 @@
     "scale"             : [ "C", "D", "E", "F", "G", "A", "B" ],
     "trackPerPattern"   : false,
     "outputFile"        : "output.mid"
-}
+}]

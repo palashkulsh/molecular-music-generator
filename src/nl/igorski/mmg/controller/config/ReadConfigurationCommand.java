@@ -48,7 +48,8 @@ public final class ReadConfigurationCommand
 
             JSONParser parser = new JSONParser();
             Object obj        = parser.parse( new FileReader( jsonFile ));
-            JSONObject json   = ( JSONObject ) obj;
+	        JSONArray jsonArr   = ( JSONArray ) obj;
+            JSONObject json = ( JSONObject )jsonArr.get(0);
 
             // if no tempo or note lengths were set, we cannot do anything !
 
